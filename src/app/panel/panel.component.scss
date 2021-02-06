@@ -1,0 +1,14 @@
+.wrapper-panel{
+    text-align: center;
+    padding-top: 20px;
+    .item{
+        display: inline-block;
+        width: 350px;
+        height: 350px;
+        img{
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+    }
+}

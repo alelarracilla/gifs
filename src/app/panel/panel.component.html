@@ -1,0 +1,6 @@
+<div class="wrapper-panel">
+    <div class="item" *ngFor="let gif of gifs " (click)="openGif(gif.images.downsized.url)">
+        <img [src]="gif.images.downsized.url"/>
+    </div>
+</div>
+<app-modal [imageUrl]="imageUrl" [(open)]="openModal"></app-modal>
